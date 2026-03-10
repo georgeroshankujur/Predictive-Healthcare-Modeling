@@ -40,6 +40,18 @@ The good practice for 'Big datasets' is to identify th variables and convert the
 
 ## 2. Basic Statistical Analysis
 
-### Distribution visualisation
+## 3. Feature scaling
+
+##4. ML models: 
+For a dependent variate:
+               if numercial (continuous) : Linear -> Polynomial -> Ridge -> Lasso -> Elasticnet -> SVM
+               if Categorical: Logistic Regression -> Random Forest -> SVC
+               if Multicategorical : Decision Tree -> Random Forest -> gradient boost -> XGBoost -> Adboost classifier -> Multinomial Navian Baysian -> gnb -> knnc -> svc
+
+## Deep learning:
+We used Keras-Tensorflow for numerical and categorical dependent variates. 
+CNN and RNN (Pytorc are used for image and text deep learning.
+
+Transfer Learning is adopted with CNN Archictures.
 
 
